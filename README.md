@@ -1,10 +1,11 @@
 # check_tains
 Este reposotorio verifica automaticamente la disponibilidad de trenes entre Vaxjo y Copenhaguen en SJ. 
 
- Aqui la descripción de los archivos.  
-  -.env: Claves del servicio de mailjet.   
-  -data_sj_old.csv: Histórico para checkear los datos anteriores.    
-  -mail_logger.py: Script de envio de mails.  
-  -main.py: Ejecutable con todo el proceso.
-  -requirements: librerías necesarias.  
-  -test.ipynb: Notebook de pruebas.  
+ Aqui la descripción de los archivos:
+ 
+  -*.env*: Claves del servicio de mailjet.   
+  -*data_sj_old.csv*: Histórico para checkear los datos anteriores.    
+  -*mail_logger.py*: Script de envio de mails.  
+  -*main.py*: Ejecutable con todo el proceso.
+  -*requirements.txt*: librerías necesarias.  
+  -*test.ipynb*: Notebook de pruebas.  
