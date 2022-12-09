@@ -13,7 +13,7 @@ mail_reciever = os.environ["MAIL_RECIEVER"]
 api_key = os.environ["MAIL_JET_API_KEY"]
 api_secret =  os.environ["MAIL_JET_API_KEY_secret"]
 
-def mail_log(text):
+def mail_log(text, mail_rec = mail_reciever):
   mailjet = Client(auth=(api_key, api_secret), version='v3.1')
   data = {
     'Messages': [
@@ -24,12 +24,12 @@ def mail_log(text):
         },
         "To": [
           {
-            "Email": mail_reciever,
+            "Email": mail_rec,
             "Name": "Pablo"
           }
         ],
-        "Subject": "Nueva oferta.",
-        "TextPart": f"nueva oferta en BCE:{text}",
+        "Subject": "¡Que viene el tren!",
+        "TextPart": text,
       }
     ]
   }
