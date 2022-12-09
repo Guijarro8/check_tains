@@ -3,9 +3,9 @@ Este reposotorio verifica automaticamente la disponibilidad de trenes entre Vaxj
 
  Aqui la descripción de los archivos:
  
-  -*.env*: Claves del servicio de mailjet.   
-  -*data_sj_old.csv*: Histórico para checkear los datos anteriores.    
-  -*mail_logger.py*: Script de envio de mails.  
-  -*main.py*: Ejecutable con todo el proceso.
-  -*requirements.txt*: librerías necesarias.  
-  -*test.ipynb*: Notebook de pruebas.  
+  -*.env*:  Claves del servicio de mailjet.   
+  -*data_sj_old.csv*:   Histórico para checkear los datos anteriores.    
+  -*mail_logger.py*:   Script de envio de mails.  
+  -*main.py*:   Ejecutable con todo el proceso.
+  -*requirements.txt*:   librerías necesarias.  
+  -*test.ipynb*:  Notebook de pruebas.  
